@@ -1,5 +1,7 @@
-Для запуска шаблона нужно выполнить следующие шаги
+Steps for start template
 
-1. git clone https://github.com/FARCER/gulp4start
+```
+1. git clone https://github.com/Swfuse/gulp-sass-template
 2. npm i
 3. gulp
+```
