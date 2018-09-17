@@ -1,7 +1,7 @@
 module.exports = function () {
     $.gulp.task('sass:build', () => {
         return $.gulp.src('./dev/static/stylus/styles.scss')
-            .pipe($.gp.stylus({
+            .pipe($.gp.sass({
                 'include css': true
             }))
             .pipe($.gp.autoprefixer({
